@@ -23,6 +23,15 @@
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
+	<key>CFBundleTypeRole</key>
+    <string>Editor</string>
+    <key>CFBundleURLName</key>
+    <string>com.yourcompany.devprep</string> <!-- Use your bundle ID -->
+    <key>CFBundleURLSchemes</key>
+    <array>
+            <!-- Define your custom scheme -->
+        <string>devprep</string>
+    </array>
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
